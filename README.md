@@ -123,3 +123,5 @@ with some modification.
 
 * [Getting Started with Snowflake](https://quickstarts.snowflake.com/guide/getting_started_with_native_apps)
 * [Sample Code: Getting Started with Snowflake](https://github.com/Snowflake-Labs/sfguide-getting-started-with-native-apps)
+* [More Snowflake demos](https://developers.snowflake.com/demos/analytics-snowflake-native-app/)
+* [More advanced Native App on Quickstart](https://quickstarts.snowflake.com/guide/native-app-chairlift/)
