@@ -3,9 +3,19 @@
 Playground for trying and learning Snowflake Native App. Based on [Snowflake's official Native App sample code](https://quickstarts.snowflake.com/guide/getting_started_with_native_apps) 
 with some modification.
 
-## Setup
+## Snowflake Native App Architecture
 
-1. Create a virtual environment (optional):
+![Snowflake Native App in a Nutshell](images/snowfalke_native_app.png)
+
+## Journal
+
+Here is a journal of how this project was created. This helps us to understand.
+
+1. As of this writing, you can only create Native App on Snowflake running on AWS. So if your account isn't set on AWS, you
+   will have to create a Snowflake account on AWS. Go to **Admin** > **Accounts** and click the **+ Account** button
+   on the top-right.
+
+1. Create a virtual environment (optional but highly recommended):
 
    ```bash
    $ python3 -m venv .venv
@@ -13,17 +23,13 @@ with some modification.
    (.venv) $ # Should see the virtual env name as a prefix the shell prompt
    ```
 
-1. Create directories for the app.
+1. Create subdirectories in the root directory for the app.
 
    ```shell
    mkdir -p app/data
    mkdir -p app/src
    mkdir -p app/setup
    ```
-
-1. As of this writing, you can only create on Snowflake running on AWS. So if your account isn't set on AWS, you 
-   will have to create a Snowflake account on AWS. Go to **Admin** > **Accounts** and click the **+ Account** button 
-   on the top-right.
 
 1. Now that you have a Snowflake account on AWS, log into that account. Navigate to **Apps**. On the top, select 
    **Packages** and then click the **+ App Package**. Enter the following.
